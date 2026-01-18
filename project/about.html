@@ -1,0 +1,357 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Landmark Homes</title>
+  <link rel="stylesheet" href="css/font-awesome.css" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="css/zoomslider.css" />
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+
+
+  <script src="js/jquery-1.11.3.min.js"></script>
+   <script>
+    $(function () {
+
+      $("<select />").appendTo("nav");
+
+      $("<option />", {
+        "selected": "selected",
+        "value": "",
+        "text": "Go to..."
+      }).appendTo("nav select");
+
+      $("nav a").each(function () {
+        var el = $(this);
+        $("<option />", {
+          "value": el.attr("href"),
+          "text": el.text()
+        }).appendTo("nav select");
+      });
+
+      $("nav select").change(function () {
+        window.location = $(this).find("option:selected").val();
+      });
+
+    });
+  </script>
+
+  <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
+
+  <script type="text/javascript" src="js/slick.min.js"></script>
+
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+
+      $('.items').slick({
+        dots: true,
+        infinite: true,
+        speed: 800,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 5,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+            }
+          }
+
+        ]
+      });
+    });	
+  </script>
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+  
+  <header id="header" class="nav">
+    <div class="user-tools">
+      <div class="wrapper">
+        <div class="row">
+          <div class="box-50">
+            <div class="box-paddingS">
+              <div class="newsflash">Call for Eyecare: 9957085205</div>
+            </div>
+          </div>
+          <div class="box-50">
+            <div class="box-paddingS">
+              <div class="socials">
+                <ul class="toplinks">
+                  <li><a class="topBar" href="tel:8011818345"><i class="fa fa-phone"></i> Call for Other Department: <span
+                        style="font-size: 15px;font-weight: 700">8011818345</span></a></li>
+
+                  <li><a href="#" target="_blank"><i class="fa fa-envelope" alt="Email"></i></a></li>
+                  <li><a href="" target="_blank"><i class="fa fa-facebook" alt="Facebook"></i></a></li>
+                  <li><a href="" target="_blank"><i class="fa fa-linkedin" alt="Linkedin"></i></a></li>
+                  <li><a href="" target="_blank"><i class="fa fa-instagram" alt="Instagram"></i></a></li>
+                  <li><a href="" target="_blank"><i class="fa fa-youtube" alt="Youtube"></i></a></li>
+                </ul>
+              </div>
+              <div class="clear"></div>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="header-wrap">
+        <div class="logo"><a href="index.html"><h2>Life Line Hospital</h2></a></div>
+
+        <div class="head-col">
+
+          <div id="topmenu">
+
+            <nav id="topnav" class="moduletable_dropdown">
+              <ul class="menu">
+                <li class="current-menu-item"><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <!-- <li><a href="contact.html">Contact</a></li> -->
+                <li class="apply-online"><a href="contact.html">Contact Us</a></li>
+              </ul>
+            </nav>
+
+            <div class="clear"></div>
+          </div>
+        </div>
+
+
+        <div class="clear"></div>
+
+      </div>
+    </div>
+
+
+
+  </header>
+
+
+  <section id="headerImage">
+    <div id="mainslider"
+      data-zs-src='["images/hero_01.jpg", "images/hero_02.jpg", "images/hero_03.jpg"]'
+      data-zs-overlay="plain">
+    </div>
+  </section>
+
+<section id="about-us" class="white-bgs">
+    <div class="wrapper">
+      <div class="box-100">
+        <div class="box-padding"><div class="center">
+          <h2>About <span class="yellow">Us</span></h2>
+          <div class="clear"></div>
+          <p>Established in 1993 by visionary founder Mr. Ranjit Kr. Das, Lifeline Hospital began its journey with just 20 beds, driven by a mission to provide quality and affordable healthcare to the people of Silchar and surrounding regions. Over the years, through dedication and trust, it has grown into a premier 50-bedded hospital, recognized for its commitment to compassionate care and clinical excellence. With a patient-first philosophy and a team of experienced medical professionals, the hospital has become a trusted name in the local healthcare landscape.</p>
+<p>Strategically located in Rangirkhari, one of the central areas of Silchar city, Lifeline Hospital is easily accessible via bus, shared auto, and other public transport, making it convenient for patients from both urban and rural areas. The hospital offers a broad range of medical services under one roof, ensuring timely and effective care without the burden of high costs. Over three decades, Lifeline Hospital has stayed true to its founding values—providing affordable, accessible, and quality healthcare to all sections of society.</p>
+<p>Today, Lifeline Hospital stands as a premier 50-bedded healthcare facility, widely recognized for its clinical expertise, compassionate service, and unwavering dedication to patient well-being. Over the years, it has evolved into a trusted institution in the local healthcare landscape, supported by a team of highly skilled and experienced medical professionals. With a philosophy that places patients at the core of every decision, Lifeline Hospital continues to uphold its founding values while embracing advancements in medical technology and care delivery.</p>
+        </div></div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+  <section id="featured">
+    <div class="white-bgs"><div class="content-padding">
+    <div class="clients">
+      <div class="items">
+        <div class="featured-img"><img src="images/gallery-1.jpg" alt=" " /></div>
+        <div class="featured-img"><img src="images/gallery-2.jpg" alt=" " /></div>
+        <div class="featured-img"><img src="images/gallery-3.jpg" alt=" " /></div>
+        <div class="featured-img"><img src="images/gallery-4.jpg" alt=" " /></div>
+        <div class="featured-img"><img src="images/gallery-5.jpg" alt=" " /></div>
+        <div class="featured-img"><img src="images/gallery-6.jpg" alt=" " /></div>
+        <div class="featured-img"><img src="images/gallery-7.jpg" alt=" " /></div>
+      </div>
+    </div>
+    </div></div>
+  </section>
+
+
+
+<section>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7243.277361805371!2d92.795317!3d24.807823!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x374e4a6b28990599%3A0xa646be887b43d147!2sLife%20Line%20Hospital!5e0!3m2!1sen!2sin!4v1768713779980!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+
+
+  <section id="footer">
+
+    <div class="footer-middle">
+      <div class="wrapper">
+        <div class="row">
+
+          <div class="box-40">
+            <div class="box-paddingS">
+              <div class="box-paddingR">
+                <div class="contact-form-home">
+                  <h4>Contact Us</h4>
+                  <p>If you have any questions about our services and to check our availability please complete the form
+                    below. </p>
+                  <form id="contact-form" action=" " method="post">
+                    <div class="contact-form-wrapper">
+                      <div class="row">
+                        <div class="box-50">
+                          <div class="box-paddingS">
+                            <input type="text" name="full_name" value="Full Name*"
+                              onblur="if(this.value=='') this.value='Full Name*'"
+                              onfocus="if(this.value =='Full Name*' ) this.value=''" class="inputbox">
+                          </div>
+                        </div>
+                        <div class="box-50">
+                          <div class="box-paddingS">
+                            <input type="email" name="email" value="Email Address*"
+                              onblur="if(this.value=='') this.value='Email Address*'"
+                              onfocus="if(this.value =='Email Address*' ) this.value=''" class="inputbox">
+                          </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="box-100">
+                          <div class="box-paddingS">
+                            <input type="text" name="health_issues" value="Health Issues*"
+                              onblur="if(this.value=='') this.value='Health Issues*'"
+                              onfocus="if(this.value =='Health Issues*' ) this.value=''" class="inputbox">
+                          </div>
+                        </div>
+                        <div class="clear"></div>
+                      </div>
+
+                      <div class="box-100"><input type="text" name="Message" value="Your Message.."
+                          onblur="if(this.value=='') this.value='Your Message..'"
+                          onfocus="if(this.value =='Your Message..' ) this.value=''" class="textarea"></div>
+                      <div class="box-100"><input name="Submit" type="submit" class="btn-submit" value="Submit"></div>
+                      <div class="clear"> </div>
+                    </div>
+                  </form>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="box-60">
+            <div class="box-padding">
+              <div class="box-paddingL">
+
+                <div class="row">
+                  <div class="box-50">
+                    <div class="box-padding">
+                      <h4>Get in <span class="yellow">Touch</span></h4>
+
+                      <ul class="contact-line">
+                        <li class="icon-map"> <span>NS Ave, Das Colony, Ambicapatty, Silchar, Kanakpur Part-II, Assam - 788005
+                            23233</span> </li>
+                        <li class="icon-phone"> <span>Phone: 8011818345</span></li>
+                        <li class="icon-email"> <span>Email: lifelinehospital1993@gmail.com</span></li>
+                      </ul>
+
+
+                      <div class="clear"></div>
+
+                      <div class="socialmedia">
+                        <ul class="icons">
+                          <li><a class="fa fa-facebook" href="" title="Facebook"><span></span></a></li>
+                          <li><a class="fa fa-instagram" href="" title="Instagram"><span></span></a></li>
+                          <li><a class="fa fa-linkedin" href="" title="Linkedin"><span></span></a></li>
+                          <li><a class="fa fa-youtube" href="" title="Youtube"><span></span></a></li>
+
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="box-50">
+                    <div class="box-padding">
+                      <h4>Sign up for our <span class="yellow">newsletter!</span></h4>
+                      <div class="clear"></div>
+                      <form action="" id="newsletter-box">
+                        <input class="input-text" type="text"
+                          onblur="if (this.value == '') {this.value = 'Enter your email address';}"
+                          onfocus="if(this.value == 'Enter your email address') {this.value = '';}"
+                          value="Enter your email address" name="email"> <input class="input-submit" type="button"
+                          value="Sign Up" name="">
+                        <div class="clear"></div>
+                      </form>
+
+                    </div>
+                  </div>
+                  <div class="clear"></div>
+
+                </div>
+
+
+
+
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="clear"></div>
+        </div>
+
+
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="wrapper">
+
+        <div class="row">
+          <div class="box-70">
+            <div class="box-paddingS">
+              © 2025-2026 Lifeline Hospital All Rights Reserved.
+            </div>
+          </div>
+          <div class="box-30">
+            <div class="box-paddingS alignright">
+              <a href="">Privacy Policy</a> &nbsp; – &nbsp; <a href="">Disclaimer</a> &nbsp; – &nbsp; <a href="">Terms
+                of Use</a>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+<script type="text/javascript" src="js/jquery.zoomslider.min.js"></script>
+
+</html>

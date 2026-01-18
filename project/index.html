@@ -1,0 +1,480 @@
+﻿<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Landmark Homes</title>
+  <link rel="stylesheet" href="css/font-awesome.css" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="css/zoomslider.css" />
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+
+
+  <script src="js/jquery-1.11.3.min.js"></script>
+   <script>
+    $(function () {
+
+      $("<select />").appendTo("nav");
+
+      $("<option />", {
+        "selected": "selected",
+        "value": "",
+        "text": "Go to..."
+      }).appendTo("nav select");
+
+      $("nav a").each(function () {
+        var el = $(this);
+        $("<option />", {
+          "value": el.attr("href"),
+          "text": el.text()
+        }).appendTo("nav select");
+      });
+
+      $("nav select").change(function () {
+        window.location = $(this).find("option:selected").val();
+      });
+
+    });
+  </script>
+
+  <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
+
+  <script type="text/javascript" src="js/slick.min.js"></script>
+
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+
+      $('.items').slick({
+        dots: true,
+        infinite: true,
+        speed: 800,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 5,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+            }
+          }
+
+        ]
+      });
+    });	
+  </script>
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+  
+  <header id="header" class="nav">
+    <div class="user-tools">
+      <div class="wrapper">
+        <div class="row">
+          <div class="box-50">
+            <div class="box-paddingS">
+              <div class="newsflash">Call for Eyecare: 9957085205</div>
+            </div>
+          </div>
+          <div class="box-50">
+            <div class="box-paddingS">
+              <div class="socials">
+                <ul class="toplinks">
+                  <li><a class="topBar" href="tel:8011818345"><i class="fa fa-phone"></i> Call for Other Department: <span
+                        style="font-size: 15px;font-weight: 700">8011818345</span></a></li>
+
+                  <li><a href="#" target="_blank"><i class="fa fa-envelope" alt="Email"></i></a></li>
+                  <li><a href="" target="_blank"><i class="fa fa-facebook" alt="Facebook"></i></a></li>
+                  <li><a href="" target="_blank"><i class="fa fa-linkedin" alt="Linkedin"></i></a></li>
+                  <li><a href="" target="_blank"><i class="fa fa-instagram" alt="Instagram"></i></a></li>
+                  <li><a href="" target="_blank"><i class="fa fa-youtube" alt="Youtube"></i></a></li>
+                </ul>
+              </div>
+              <div class="clear"></div>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="header-wrap">
+        <div class="logo"><a href="index.html"><h2>Life Line Hospital</h2></a></div>
+
+        <div class="head-col">
+
+          <div id="topmenu">
+
+            <nav id="topnav" class="moduletable_dropdown">
+              <ul class="menu">
+                <li class="current-menu-item"><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <!-- <li><a href="contact.html">Contact</a></li> -->
+                <li class="apply-online"><a href="contact.html">Contact Us</a></li>
+              </ul>
+            </nav>
+
+            <div class="clear"></div>
+          </div>
+        </div>
+
+
+        <div class="clear"></div>
+
+      </div>
+    </div>
+
+
+
+  </header>
+
+
+  <section id="headerImage">
+    <div id="mainslider"
+      data-zs-src='["images/hero_01.jpg", "images/hero_02.jpg", "images/hero_03.jpg"]'
+      data-zs-overlay="plain">
+    </div>
+  </section>
+
+  <section>
+<div class="lightgrey-bgs"><div class="wrapper"><div class="content-padding">
+<div class="row">
+<div class="box-25"><div class="box-padding">
+              <h4>Comprehensive Medical Services</h4>
+<p>From routine check-ups to specialized treatments in cardiology, orthopedics, neurology, pediatrics, and more, our multidisciplinary team works together to deliver accurate diagnoses and effective treatments.</p>
+</div></div>
+<div class="box-25"><div class="box-padding">
+              <h4>Experienced Medical Professionals</h4>
+              <p>Our experienced and dedicated doctors, specialists, surgeons, and nursing staff are not only highly qualified but also deeply committed to delivering compassionate, patient-focused care.</p>
+</div></div>
+<div class="box-25"><div class="box-padding">
+              <h4>Advanced Technology & Facilities</h4>
+              <p>Our infrastructure includes advanced operation theatres, modern intensive care units (ICU/NICU), and high-end diagnostic equipment such as MRI, CT scan, digital X-ray, and ultrasound systems.</p>
+</div></div>
+<div class="box-25"><div class="box-padding">
+              <h4>Patient-Centered Approach</h4>
+              <p>At Lifeline Hospital, patients are at the heart of everything we do. We prioritize clear communication, personalized treatment plans, and compassionate support throughout every stage of care from the moment you walk in. </p>
+</div></div>
+<div class="clear"></div>
+</div>
+</div></div></div>
+</section>
+
+
+
+
+
+
+
+        <section >
+            <div class="blue-bgs">
+                <div class="wrapper">
+                    <div class="content-padding">
+                        <div class="center">
+                            <h3 class="section-title">In an Emergency? Need help now?</h3>
+                            <p class="desc">Lifeline Hospital is here for you 24/7 with expert emergency care you can trust. Our
+                                fully equipped Emergency Department and rapid response team are always ready to provide
+                                immediate, life-saving treatment—any time, day or night.</p>
+
+                            <a href="" class="viewmore">Call Our Emergency Helpline</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+  <section id="parallex">
+    <div class="parallex-overlay">
+      <div class="wrapper">
+<div class="center"><h2>About Us</h2>
+
+                  <p>Established in 1993 by visionary founder Mr. Ranjit Kr. Das, Lifeline Hospital began its journey with just 20 beds, driven by a mission to provide quality and affordable healthcare to the people of Silchar and surrounding regions. Over the years, through dedication and trust, it has grown into a premier 50-bedded hospital, recognized for its commitment to compassionate care and clinical excellence. With a patient-first philosophy and a team of experienced medical professionals, the hospital has become a trusted name in the local healthcare landscape.
+                  </p>
+                  <p>Strategically located in Rangirkhari, one of the central areas of Silchar city, Lifeline Hospital is easily accessible via bus, shared auto, and other public transport, making it convenient for patients from both urban and rural areas. The hospital offers a broad range of medical services under one roof, ensuring timely and effective care without the burden of high costs. Over three decades, Lifeline Hospital has stayed true to its founding values—providing affordable, accessible, and quality healthcare to all sections of society.</p>
+                  </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+<section id="category">
+<div class="wrapper">
+<div class="center">
+<h3 class="section-title">Departments</h3>
+<p>Lifeline Hospital offers a wide range of medical and surgical specialties, designed to deliver comprehensive and coordinated care to patients of all ages. Each department is staffed by experienced specialists and supported by modern diagnostic and treatment facilities.</p>
+</div>
+<div class="row">
+<div class="box-33"><div class="box-padding"><div class="category-box">
+<a href="">
+<article class="sc_intro" style="background: url(images/departments-1.jpg);"><span
+class="sc_intro_inner"><span class="sc_intro_content">
+ <h4>Department of Surgery</h4>
+<span class="desc">Our skilled team of surgeons, anesthetists, and surgical nurses specialize in a wide range of procedures including general surgery, laparoscopic (keyhole) surgery, trauma surgery, and minor to major elective operations. </span>
+</span></span></article>
+</a>
+</div>
+</div>
+</div>
+<div class="box-33">
+<div class="box-padding">
+<div class="category-box"><a href="">
+<article class="sc_intro" style="background: url(images/departments-2.jpg);"><span
+class="sc_intro_inner"><span class="sc_intro_content">
+<h4>Department of Dentistry</h4>
+<span class="desc">Our experienced dental professionals specialize in the diagnosis, prevention, and treatment of a wide range of dental and gum-related issues, including tooth decay, gum disease, dental infections, tooth extractions, and oral hygiene management.</span>
+</span></span></article>
+</a>
+</div>
+</div>
+</div>
+<div class="box-33">
+<div class="box-padding">
+<div class="category-box"><a href="">
+<article class="sc_intro" style="background: url(images/departments-6.jpg);"><span
+class="sc_intro_inner"><span class="sc_intro_content">
+<h4>Department of Dermatology</h4>
+<span class="desc">Our dermatologists are skilled in managing both common and complex issues such as acne, eczema, psoriasis, fungal infections, hair loss, skin allergies, nail disorders, pigmentation, scars, and premature aging.</span>
+</span></span></article>
+</a>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+</section>
+
+
+
+<section>
+  <div class="lightgrey-bgs"><div class="wrapper"><div class="content-padding">
+    <div class="center">
+      <h3>Additional Services</h3>
+      <p>Lifeline Hospital’s Skin Department offers a range of additional services to address both cosmetic and medical needs. These include braces for teeth alignment, hair transplant procedures to restore hair growth, and facial aesthetic treatments such as Botox and fillers for a refreshed appearance. The department also provides advanced laser treatments for skin rejuvenation, hair removal, and pigmentation issues. Expert care is available for head and neck trauma, managing facial injuries and related conditions. Additionally, the hospital offers various plastic surgeries, including both cosmetic and reconstructive procedures to enhance or restore appearance.</p>
+    </div>
+<div class="row">
+<div class="box-50"><div class="box-padding">
+<h4>Head & Neck Trauma</h4>
+  <p>Head & Neck Trauma care at Lifeline Hospital involves the expert management of injuries affecting the face, skull, jaw, and neck. Our specialized team is equipped to handle both minor and complex trauma cases, including fractures, soft tissue injuries, and internal damage resulting from accidents or physical impact.</p>
+</div></div>
+<div class="box-50"><div class="box-padding">
+<h4>Plastic Surgeries</h4>
+  <p>Plastic Surgeries at Lifeline Hospital encompass a wide range of both cosmetic and reconstructive procedures aimed at enhancing appearance and restoring function. Our expert plastic surgeons perform treatments such as rhinoplasty (nose reshaping), liposuction, tummy tuck (abdominoplasty), scar revision, and burn reconstruction.</p>
+</div></div>
+<div class="clear"></div>
+</div>
+</div></div></div>
+</section>
+
+
+
+
+
+
+
+  <section id="featured">
+    <div class="white-bgs"><div class="content-padding">
+    <div class="clients">
+      <div class="items">
+        <div class="featured-img"><img src="images/gallery-1.jpg" alt=" " /></div>
+        <div class="featured-img"><img src="images/gallery-2.jpg" alt=" " /></div>
+        <div class="featured-img"><img src="images/gallery-3.jpg" alt=" " /></div>
+        <div class="featured-img"><img src="images/gallery-4.jpg" alt=" " /></div>
+        <div class="featured-img"><img src="images/gallery-5.jpg" alt=" " /></div>
+        <div class="featured-img"><img src="images/gallery-6.jpg" alt=" " /></div>
+        <div class="featured-img"><img src="images/gallery-7.jpg" alt=" " /></div>
+      </div>
+    </div>
+    </div></div>
+  </section>
+
+
+
+<section>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7243.277361805371!2d92.795317!3d24.807823!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x374e4a6b28990599%3A0xa646be887b43d147!2sLife%20Line%20Hospital!5e0!3m2!1sen!2sin!4v1768713779980!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+
+
+  <section id="footer">
+
+    <div class="footer-middle">
+      <div class="wrapper">
+        <div class="row">
+
+          <div class="box-40">
+            <div class="box-paddingS">
+              <div class="box-paddingR">
+                <div class="contact-form-home">
+                  <h4>Contact Us</h4>
+                  <p>If you have any questions about our services and to check our availability please complete the form
+                    below. </p>
+                  <form id="contact-form" action=" " method="post">
+                    <div class="contact-form-wrapper">
+                      <div class="row">
+                        <div class="box-50">
+                          <div class="box-paddingS">
+                            <input type="text" name="full_name" value="Full Name*"
+                              onblur="if(this.value=='') this.value='Full Name*'"
+                              onfocus="if(this.value =='Full Name*' ) this.value=''" class="inputbox">
+                          </div>
+                        </div>
+                        <div class="box-50">
+                          <div class="box-paddingS">
+                            <input type="email" name="email" value="Email Address*"
+                              onblur="if(this.value=='') this.value='Email Address*'"
+                              onfocus="if(this.value =='Email Address*' ) this.value=''" class="inputbox">
+                          </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="box-100">
+                          <div class="box-paddingS">
+                            <input type="text" name="health_issues" value="Health Issues*"
+                              onblur="if(this.value=='') this.value='Health Issues*'"
+                              onfocus="if(this.value =='Health Issues*' ) this.value=''" class="inputbox">
+                          </div>
+                        </div>
+                        <div class="clear"></div>
+                      </div>
+
+                      <div class="box-100"><input type="text" name="Message" value="Your Message.."
+                          onblur="if(this.value=='') this.value='Your Message..'"
+                          onfocus="if(this.value =='Your Message..' ) this.value=''" class="textarea"></div>
+                      <div class="box-100"><input name="Submit" type="submit" class="btn-submit" value="Submit"></div>
+                      <div class="clear"> </div>
+                    </div>
+                  </form>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="box-60">
+            <div class="box-padding">
+              <div class="box-paddingL">
+
+                <div class="row">
+                  <div class="box-50">
+                    <div class="box-padding">
+                      <h4>Get in <span class="yellow">Touch</span></h4>
+
+                      <ul class="contact-line">
+                        <li class="icon-map"> <span>NS Ave, Das Colony, Ambicapatty, Silchar, Kanakpur Part-II, Assam - 788005
+                            23233</span> </li>
+                        <li class="icon-phone"> <span>Phone: 8011818345</span></li>
+                        <li class="icon-email"> <span>Email: lifelinehospital1993@gmail.com</span></li>
+                      </ul>
+
+
+                      <div class="clear"></div>
+
+                      <div class="socialmedia">
+                        <ul class="icons">
+                          <li><a class="fa fa-facebook" href="" title="Facebook"><span></span></a></li>
+                          <li><a class="fa fa-instagram" href="" title="Instagram"><span></span></a></li>
+                          <li><a class="fa fa-linkedin" href="" title="Linkedin"><span></span></a></li>
+                          <li><a class="fa fa-youtube" href="" title="Youtube"><span></span></a></li>
+
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="box-50">
+                    <div class="box-padding">
+                      <h4>Sign up for our <span class="yellow">newsletter!</span></h4>
+                      <div class="clear"></div>
+                      <form action="" id="newsletter-box">
+                        <input class="input-text" type="text"
+                          onblur="if (this.value == '') {this.value = 'Enter your email address';}"
+                          onfocus="if(this.value == 'Enter your email address') {this.value = '';}"
+                          value="Enter your email address" name="email"> <input class="input-submit" type="button"
+                          value="Sign Up" name="">
+                        <div class="clear"></div>
+                      </form>
+
+                    </div>
+                  </div>
+                  <div class="clear"></div>
+
+                </div>
+
+
+
+
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="clear"></div>
+        </div>
+
+
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="wrapper">
+
+        <div class="row">
+          <div class="box-70">
+            <div class="box-paddingS">
+              © 2025-2026 Lifeline Hospital All Rights Reserved.
+            </div>
+          </div>
+          <div class="box-30">
+            <div class="box-paddingS alignright">
+              <a href="">Privacy Policy</a> &nbsp; – &nbsp; <a href="">Disclaimer</a> &nbsp; – &nbsp; <a href="">Terms
+                of Use</a>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+<script type="text/javascript" src="js/jquery.zoomslider.min.js"></script>
+
+</html>
